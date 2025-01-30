@@ -146,6 +146,11 @@ p {
         width: 100%;
     }
 
+    a{
+        margin: 10px;
+        font-size: small;
+    }
+
     .main{
         width: 100%;
         justify-items: center;
