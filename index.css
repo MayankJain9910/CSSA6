@@ -1,0 +1,182 @@
+body {
+    background-image: url(shara_desert.jpg);
+    background-size: cover;
+    padding: 20px 80px;
+
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    margin-right: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p1 {
+    margin: 0px;
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    color: black;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 160px;
+    font-weight: bold;
+    font-size: small;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+.main2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+p {
+    color: white;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.box1 {
+    height: 200px;
+    width: 170px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(pic-1.png);
+    background-size: cover;
+    position: relative;
+    transition: ease;
+    transition-duration: 1s;
+
+    &:hover {
+        margin-top: 5px;
+    }
+}
+
+.box2 {
+    height: 200px;
+    width: 170px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(pic-2.png);
+    background-size: cover;
+    position: relative;
+    transition: ease;
+    transition-duration: 1s;
+
+    &:hover {
+        margin-top: 5px;
+    }
+}
+
+.box3 {
+    height: 200px;
+    width: 170px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(pic-3.png);
+    background-size: cover;
+    position: relative;
+    transition: ease;
+    transition-duration: 1s;
+
+    &:hover {
+        margin-top: 5px;
+    }
+}
+
+.box4 {
+    height: 200px;
+    width: 170px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(pic-4.png);
+    background-size: cover;
+    position: relative;
+    transition: ease;
+    transition-duration: 1s;
+
+    &:hover {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:650px) {
+
+    body{
+        padding: 20px;
+    }
+    
+    .head{
+        width: 100%;
+    }
+
+    .main{
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .main1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #p1{
+        font-size: 75px;
+    }
+
+    .main2{
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        flex-wrap: wrap;
+    }
+
+    .box1,.box2,.box3,.box4{
+        width: 80%;
+    }
+
+
+
+}
